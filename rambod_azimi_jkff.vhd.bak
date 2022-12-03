@@ -1,0 +1,10 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity rambod_azimi_jkff is	-- 3 input signals clk, J, and K
+Port (clk : in std_logic;		-- 1 output signal Q
+		J : in std_logic;
+		K : in std_logic;
+		Q : out std_logic);
+end rambod_azimi_jkff;
